@@ -1,0 +1,108 @@
+body{
+  background-color: #05445E;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #189AB4;
+  max-width: 400px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.container h1{
+  padding-top: 10px;
+}
+
+.container h4{
+  font-size: 20px;
+  background-color: black;
+  width: 200px;
+  margin: 20px auto;
+  color: #00ff44;
+  padding: 5px;
+}
+
+.board{
+  display: flex;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #189AB4;
+}
+
+.row{
+  height: 300px;
+  width: 100px;
+  margin: 5px;
+}
+
+.col{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: white;
+  border: none;
+  color: black;
+  display: flex;
+}
+
+.X{
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.O{
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-points{
+  display: flex;
+  width: 100%;
+
+}
+
+.pointsX{
+  flex-grow: 2;
+}
+
+#scoreX{
+  border: 1px solid;
+  padding: 3px 8px;
+}
+
+#scoreO{
+  border: 1px solid;
+  padding: 3px 8px;
+}
+
+.pointsO{
+  flex-grow: 2;
+}
+
+#btn{
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  width: 70px; 
+  border-radius: 2px;
+  background-color: #e8646a; 
+  color: white;
+  margin-right: 10px;
+}
+
+#btn-reset{
+
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  width: 70px; 
+  border-radius: 2px;
+  background-color: #6bd186; 
+  color: white;
+}
